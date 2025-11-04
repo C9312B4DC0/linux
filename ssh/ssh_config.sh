@@ -1,6 +1,4 @@
 #!/bin/bash
-
-<<comment
 #		██╗███████╗███████╗███╗   ██╗███████╗ ██████╗ ███████╗████████╗
 #		██║██╔════╝██╔════╝████╗  ██║██╔════╝██╔═══██╗██╔════╝╚══██╔══╝
 #		██║███████╗█████╗  ██╔██╗ ██║███████╗██║   ██║█████╗     ██║
@@ -13,22 +11,21 @@
 #
 #
 #
+#
+# SSH Security Hardening Script
+# This script automates SSH security configuration by:
+# 1. Installing required tools (ssh-import-id)
+# 2. Importing SSH keys from GitHub
+# 3. Hardening SSH daemon configuration
+#
+# Features:
+# - Optional GitHub username via command line (-u flag)
+# - Interactive prompts for missing information
+# - Comprehensive SSH security settings
+# - Backup and validation of configuration changes
+#
+# Usage: ./script.sh [-u GITHUB_USERNAME] [-h]
 
-SSH Security Hardening Script
-This script automates SSH security configuration by:
-1. Installing required tools (ssh-import-id)
-2. Importing SSH keys from GitHub
-3. Hardening SSH daemon configuration
-
-Features:
-- Optional GitHub username via command line (-u flag)
-- Interactive prompts for missing information
-- Comprehensive SSH security settings
-- Backup and validation of configuration changes
-
-Usage: ./script.sh [-u GITHUB_USERNAME] [-h]
-
-comment
 
 
 
