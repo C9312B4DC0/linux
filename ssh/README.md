@@ -9,5 +9,5 @@ This script is a designed to perform the following tasks:
 
 ## Run from your linux terminal
 ```bash
-curl -sSL https://raw.githubusercontent.com/C9312B4DC0/linux/refs/heads/main/ghostty/ghostty_config.sh | /bin/bash -s -- --ghusername <yourgithubusername>
+curl -sSL https://github.com/C9312B4DC0/linux/blob/main/ssh/ssh_config.sh | /bin/bash -s -- --ghusername <yourgithubusername>
 ```
